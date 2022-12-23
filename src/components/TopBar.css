@@ -1,0 +1,43 @@
+.navbar {
+  background: gray;
+  height: 80px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  justify-self: center;
+  align-self: center;
+  margin-left: 3rem;
+  font-size: 2rem;
+}
+
+.nav-buttons-container {
+  margin-right: 3rem;
+  list-style-type: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+li button {
+  background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+  font-size: 1.5rem;
+}
+
+li a{
+  color: inherit;
+  text-decoration: inherit;
+  font-size: 1.5rem;
+}
+
+.nav-buttons-container li:hover {
+  color: blue;
+}
