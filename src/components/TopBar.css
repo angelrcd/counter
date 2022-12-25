@@ -14,11 +14,42 @@
   font-size: 2rem;
 }
 
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
 .nav-buttons-container {
   margin-right: 3rem;
-  list-style-type: none;
   display: flex;
   gap: 1.5rem;
+}
+
+.contact-menu-container {
+  display: flex;
+  flex-direction: row-reverse;
+  height: fit-content;
+  background;
+}
+
+.contact-menu {
+  width: fit-content;
+  height: fit-content;
+  padding: 0px 30px;
+  background: blue;
+  position: relative;
+  right: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: -1;
+  transition: all 100ms linear;
+}
+
+.closed-contact-menu {
+  transition: all 100ms linear;
+  transform: translate(0px, -60px);
 }
 
 li button {

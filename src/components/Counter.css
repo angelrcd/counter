@@ -1,0 +1,28 @@
+.app-container {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.counter-app-container{
+  text-align: center;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+input[type=number] {
+  text-align: center;
+  border-radius: 10px;
+  width: 50px;
+}
